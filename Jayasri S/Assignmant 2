@@ -1,0 +1,13 @@
+/*     CODE FOR ALARM DETECTION     */
+
+
+import random
+while(1):                    #infinite loop
+    temp=random.randint(0,150)    #Random temperature value is obtained between 0 and 150 degree celsius
+    hum=random.randint(0,50)       #Random humidity value is obtained between 0 and 50
+    print("Temperature:",temp)
+    print("Humidity:",hum)
+    if((temp>70) and (hum>30)):
+        print("High temperature and Alarm ON")        #Detected by Alarm and is turned ON
+    else:
+        print("Normal")
