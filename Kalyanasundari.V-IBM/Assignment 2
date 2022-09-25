@@ -1,0 +1,13 @@
+#CODE FOR ALARM DETECTION    
+
+
+import random
+while(1):
+    temp=random.randint(0,150)
+    hum=random.randint(0,50)
+    print(temp)
+    print(hum)
+    if((temp>70) and (hum>30)):
+        print("High temperature")   
+    else:
+        print("Normal")
